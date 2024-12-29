@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epsit Bhardwaj's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home" class="active" data-section="0">
+            <span>Home</span>
+        </a>
+        <a href="#about" data-section="1">
+            <span>About</span>
+        </a>
+        <a href="#projects" data-section="2">
+            <span>Projects</span>
+        </a>
+        <a href="#contact" data-section="3">
+            <span>Contact</span>
+        </a>
+    </nav>
+
+    <!-- Swipeable Container -->
+    <div class="swipe-container">
+        <!-- Home Section -->
+        <section id="home">
+            <h1>Welcome to Epsit's Portfolio</h1>
+            <p>Web Developer | Competitive Programmer | Web3 Enthusiast</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <img src="https://avatars.githubusercontent.com/u/epsit03" alt="Epsit Bhardwaj">
+            <h2>About Me</h2>
+            <p>I'm Epsit Bhardwaj, a CSE Final Year Student and Project Implementation Intern at Gevme. I'm passionate about Web Development, Competitive Programming, and Web3. I love exploring the intersection of technology and innovation, focusing on Smart Contract Development.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A fully responsive portfolio website showcasing my work and experience.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Smart Contract Implementation</h3>
+                <p>Developed and deployed smart contracts for a blockchain-based voting system.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
